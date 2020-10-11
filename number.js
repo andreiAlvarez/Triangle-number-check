@@ -18,3 +18,4 @@ function isTriangleNumber(number) {
 
 // solution 2
 
+const isTriangleNumber = number => Math.sqrt(1+8*number)%1==0;
